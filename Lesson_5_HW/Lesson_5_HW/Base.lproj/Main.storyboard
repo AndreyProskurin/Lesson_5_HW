@@ -36,8 +36,24 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iiz-cH-Yll">
                                 <rect key="frame" x="20" y="168" width="280" height="50"/>
                                 <color key="backgroundColor" red="0.93092066049575806" green="0.4918903112411499" blue="0.4288196861743927" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="G8u-nC-mLq"/>
+                                    <constraint firstAttribute="width" constant="280" id="duV-zO-p6t"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Sign Up"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENm-NB-w27">
+                                <rect key="frame" x="20" y="438" width="280" height="50"/>
+                                <color key="backgroundColor" red="0.93092066049575806" green="0.4918903112411499" blue="0.4288196861743927" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Login with Google"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7e-zp-byj">
+                                <rect key="frame" x="20" y="493" width="280" height="50"/>
+                                <color key="backgroundColor" red="0.9309206605" green="0.49189031119999999" blue="0.42881968619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Login with FaceBook"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.94695696723840839" green="1" blue="0.00033646567800926785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -45,13 +61,19 @@
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XWv-pq-olZ" secondAttribute="bottom" constant="410" id="8iu-yq-AYa"/>
                             <constraint firstItem="Iiz-cH-Yll" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="148" id="935-1d-dtp"/>
-                            <constraint firstItem="Iiz-cH-Yll" firstAttribute="height" secondItem="XWv-pq-olZ" secondAttribute="height" id="HiH-BW-9g3"/>
-                            <constraint firstItem="Iiz-cH-Yll" firstAttribute="width" secondItem="XWv-pq-olZ" secondAttribute="width" id="PsV-ky-0tR"/>
+                            <constraint firstItem="ENm-NB-w27" firstAttribute="width" secondItem="XWv-pq-olZ" secondAttribute="width" id="KPP-oo-g8y"/>
+                            <constraint firstItem="w7e-zp-byj" firstAttribute="height" secondItem="XWv-pq-olZ" secondAttribute="height" id="OLv-D3-lLV"/>
                             <constraint firstItem="Iiz-cH-Yll" firstAttribute="centerX" secondItem="XWv-pq-olZ" secondAttribute="centerX" id="UXm-HV-JJ8"/>
                             <constraint firstItem="XWv-pq-olZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="88" id="XHf-gS-TrC"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Iiz-cH-Yll" secondAttribute="bottom" constant="350" id="YqI-wa-S0s"/>
+                            <constraint firstItem="w7e-zp-byj" firstAttribute="width" secondItem="XWv-pq-olZ" secondAttribute="width" id="Z02-O4-TcU"/>
+                            <constraint firstItem="w7e-zp-byj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dHb-pn-5mz"/>
+                            <constraint firstItem="ENm-NB-w27" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hee-mn-ZX5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="w7e-zp-byj" secondAttribute="bottom" constant="25" id="nbj-J8-YIN"/>
                             <constraint firstItem="Iiz-cH-Yll" firstAttribute="trailing" secondItem="XWv-pq-olZ" secondAttribute="trailing" id="qBK-sv-WFO"/>
+                            <constraint firstItem="ENm-NB-w27" firstAttribute="height" secondItem="XWv-pq-olZ" secondAttribute="height" id="qE2-uf-y3C"/>
                             <constraint firstItem="XWv-pq-olZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qsV-1P-hHy"/>
+                            <constraint firstItem="w7e-zp-byj" firstAttribute="top" secondItem="ENm-NB-w27" secondAttribute="bottom" constant="5" id="s4w-Tg-iQz"/>
+                            <constraint firstItem="w7e-zp-byj" firstAttribute="leading" secondItem="ENm-NB-w27" secondAttribute="leading" id="uA6-P1-Nfu"/>
                             <constraint firstItem="Iiz-cH-Yll" firstAttribute="top" secondItem="XWv-pq-olZ" secondAttribute="bottom" constant="10" id="zs3-pM-BaX"/>
                         </constraints>
                     </view>
