@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,11 +18,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWv-pq-olZ">
-                                <rect key="frame" x="67" y="70" width="280" height="50"/>
+                                <rect key="frame" x="20" y="115" width="280" height="50"/>
                                 <color key="backgroundColor" red="1" green="0.50044189520490601" blue="0.43625492347862838" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="BiY-Mi-xb1">
@@ -38,33 +38,37 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular">
+                                    <color key="backgroundColor" red="0.99918180450000005" green="1" blue="0.16962458429999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iiz-cH-Yll">
-                                <rect key="frame" x="67" y="130" width="280" height="49.666666666666657"/>
+                                <rect key="frame" x="20" y="175" width="280" height="49.5"/>
                                 <color key="backgroundColor" red="0.93092066049575806" green="0.4918903112411499" blue="0.4288196861743927" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Sign Up"/>
                                 <variation key="heightClass=regular-widthClass=regular">
+                                    <color key="backgroundColor" red="0.99918180450000005" green="1" blue="0.16962458429999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENm-NB-w27">
-                                <rect key="frame" x="67" y="606.66666666666663" width="280" height="50"/>
+                                <rect key="frame" x="20" y="438.5" width="280" height="50"/>
                                 <color key="backgroundColor" red="0.93092066049575806" green="0.4918903112411499" blue="0.4288196861743927" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Login with Google"/>
                                 <variation key="heightClass=regular-widthClass=regular">
+                                    <color key="backgroundColor" red="0.99918180450000005" green="1" blue="0.16962458429999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7e-zp-byj">
-                                <rect key="frame" x="67" y="661.66666666666652" width="280" height="49.333333333333371"/>
+                                <rect key="frame" x="20" y="493.5" width="280" height="49.5"/>
                                 <color key="backgroundColor" red="0.9309206605" green="0.49189031119999999" blue="0.42881968619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Login with FaceBook"/>
                                 <variation key="heightClass=regular-widthClass=regular">
+                                    <color key="backgroundColor" red="0.99918180450000005" green="1" blue="0.16962458429999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 </variation>
                             </button>
@@ -76,7 +80,11 @@
                             <constraint firstItem="ENm-NB-w27" firstAttribute="width" secondItem="XWv-pq-olZ" secondAttribute="width" id="KPP-oo-g8y"/>
                             <constraint firstItem="w7e-zp-byj" firstAttribute="height" secondItem="XWv-pq-olZ" secondAttribute="height" id="OLv-D3-lLV"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="w7e-zp-byj" secondAttribute="bottom" constant="25" id="Ufb-yH-H5o"/>
-                            <constraint firstItem="XWv-pq-olZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="XQ2-Ln-e30"/>
+                            <constraint firstItem="XWv-pq-olZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="95" id="XQ2-Ln-e30">
+                                <variation key="heightClass=compact-widthClass=compact" constant="20"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="30"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="30"/>
+                            </constraint>
                             <constraint firstItem="w7e-zp-byj" firstAttribute="width" secondItem="XWv-pq-olZ" secondAttribute="width" id="Z02-O4-TcU"/>
                             <constraint firstItem="Iiz-cH-Yll" firstAttribute="leading" secondItem="XWv-pq-olZ" secondAttribute="leading" id="cAO-9o-GSD"/>
                             <constraint firstItem="w7e-zp-byj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dHb-pn-5mz"/>
@@ -97,6 +105,9 @@
                             <mask key="constraints">
                                 <include reference="zs3-pM-BaX"/>
                             </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <color key="backgroundColor" red="0.20463562160000001" green="0.14264847680000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </variation>
                     </view>
                 </viewController>
