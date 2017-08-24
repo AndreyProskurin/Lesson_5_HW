@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,20 +24,35 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWv-pq-olZ">
                                 <rect key="frame" x="20" y="108" width="280" height="50"/>
                                 <color key="backgroundColor" red="1" green="0.50044189520490601" blue="0.43625492347862838" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BiY-Mi-xb1"/>
+                                    <constraint firstAttribute="width" constant="280" id="XPN-Ti-dcP"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Sign In">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iiz-cH-Yll">
+                                <rect key="frame" x="20" y="168" width="280" height="50"/>
+                                <color key="backgroundColor" red="0.93092066049575806" green="0.4918903112411499" blue="0.4288196861743927" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Sign Up"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.94695696723840839" green="1" blue="0.00033646567800926785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XWv-pq-olZ" secondAttribute="bottom" constant="410" id="5KB-46-FQw"/>
-                            <constraint firstItem="XWv-pq-olZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="TIG-FG-izg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XWv-pq-olZ" secondAttribute="bottom" constant="410" id="8iu-yq-AYa"/>
+                            <constraint firstItem="Iiz-cH-Yll" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="148" id="935-1d-dtp"/>
+                            <constraint firstItem="Iiz-cH-Yll" firstAttribute="height" secondItem="XWv-pq-olZ" secondAttribute="height" id="HiH-BW-9g3"/>
+                            <constraint firstItem="Iiz-cH-Yll" firstAttribute="width" secondItem="XWv-pq-olZ" secondAttribute="width" id="PsV-ky-0tR"/>
+                            <constraint firstItem="Iiz-cH-Yll" firstAttribute="centerX" secondItem="XWv-pq-olZ" secondAttribute="centerX" id="UXm-HV-JJ8"/>
                             <constraint firstItem="XWv-pq-olZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="88" id="XHf-gS-TrC"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="XWv-pq-olZ" secondAttribute="trailing" constant="4" id="gln-R5-dYE"/>
-                            <constraint firstItem="XWv-pq-olZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oNQ-xL-nps"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Iiz-cH-Yll" secondAttribute="bottom" constant="350" id="YqI-wa-S0s"/>
+                            <constraint firstItem="Iiz-cH-Yll" firstAttribute="trailing" secondItem="XWv-pq-olZ" secondAttribute="trailing" id="qBK-sv-WFO"/>
+                            <constraint firstItem="XWv-pq-olZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qsV-1P-hHy"/>
+                            <constraint firstItem="Iiz-cH-Yll" firstAttribute="top" secondItem="XWv-pq-olZ" secondAttribute="bottom" constant="10" id="zs3-pM-BaX"/>
                         </constraints>
                     </view>
                 </viewController>
