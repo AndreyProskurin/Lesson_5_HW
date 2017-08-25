@@ -26,12 +26,10 @@
                                 <color key="backgroundColor" red="1" green="0.50044189520490601" blue="0.43625492347862838" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="BiY-Mi-xb1">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="50"/>
                                         <variation key="heightClass=regular-widthClass=regular" constant="100"/>
                                     </constraint>
-                                    <constraint firstAttribute="width" constant="280" id="XPN-Ti-dcP">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="280"/>
-                                        <variation key="heightClass=regular-widthClass=regular" constant="650"/>
-                                    </constraint>
+                                    <constraint firstAttribute="width" constant="280" id="H5T-4p-MbH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Sign In">
@@ -43,7 +41,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iiz-cH-Yll">
-                                <rect key="frame" x="20" y="175" width="280" height="49.5"/>
+                                <rect key="frame" x="20" y="175" width="280" height="50"/>
                                 <color key="backgroundColor" red="0.93092066049575806" green="0.4918903112411499" blue="0.4288196861743927" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Sign Up"/>
@@ -53,7 +51,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENm-NB-w27">
-                                <rect key="frame" x="20" y="438.5" width="280" height="50"/>
+                                <rect key="frame" x="20" y="438" width="280" height="50"/>
                                 <color key="backgroundColor" red="0.93092066049575806" green="0.4918903112411499" blue="0.4288196861743927" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Login with Google"/>
@@ -63,7 +61,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7e-zp-byj">
-                                <rect key="frame" x="20" y="493.5" width="280" height="49.5"/>
+                                <rect key="frame" x="20" y="493" width="280" height="50"/>
                                 <color key="backgroundColor" red="0.9309206605" green="0.49189031119999999" blue="0.42881968619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Login with FaceBook"/>
@@ -78,6 +76,7 @@
                         <constraints>
                             <constraint firstItem="Iiz-cH-Yll" firstAttribute="height" secondItem="XWv-pq-olZ" secondAttribute="height" id="0pM-F3-N5u"/>
                             <constraint firstItem="ENm-NB-w27" firstAttribute="width" secondItem="XWv-pq-olZ" secondAttribute="width" id="KPP-oo-g8y"/>
+                            <constraint firstItem="ENm-NB-w27" firstAttribute="leading" secondItem="Iiz-cH-Yll" secondAttribute="leading" id="NWg-QX-zYY"/>
                             <constraint firstItem="w7e-zp-byj" firstAttribute="height" secondItem="XWv-pq-olZ" secondAttribute="height" id="OLv-D3-lLV"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="w7e-zp-byj" secondAttribute="bottom" constant="25" id="Ufb-yH-H5o"/>
                             <constraint firstItem="XWv-pq-olZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="95" id="XQ2-Ln-e30">
@@ -87,8 +86,6 @@
                             </constraint>
                             <constraint firstItem="w7e-zp-byj" firstAttribute="width" secondItem="XWv-pq-olZ" secondAttribute="width" id="Z02-O4-TcU"/>
                             <constraint firstItem="Iiz-cH-Yll" firstAttribute="leading" secondItem="XWv-pq-olZ" secondAttribute="leading" id="cAO-9o-GSD"/>
-                            <constraint firstItem="w7e-zp-byj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dHb-pn-5mz"/>
-                            <constraint firstItem="ENm-NB-w27" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hee-mn-ZX5"/>
                             <constraint firstItem="ENm-NB-w27" firstAttribute="height" secondItem="XWv-pq-olZ" secondAttribute="height" id="qE2-uf-y3C"/>
                             <constraint firstItem="XWv-pq-olZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qsV-1P-hHy"/>
                             <constraint firstItem="w7e-zp-byj" firstAttribute="top" secondItem="ENm-NB-w27" secondAttribute="bottom" constant="5" id="s4w-Tg-iQz">
