@@ -19,6 +19,21 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)signInButtonAction:(UIButton *)sender {
+    self.infoLabel.text = @"Sign In";
+}
+
+- (IBAction)signUpButtonAction:(UIButton *)sender {
+    self.infoLabel.text = @"Sign Up";
+}
+
+- (IBAction)logInWithGoogleButtonAction:(UIButton *)sender {
+    self.infoLabel.text = @"Login with Google";
+}
+
+- (IBAction)logInWithFacebookButtonAction:(UIButton *)sender {
+    self.infoLabel.text = @"Login with FaceBook";
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
